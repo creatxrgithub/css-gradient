@@ -2,7 +2,9 @@
 css gradient encapsulation
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-radial-gradient
 
 ## export from gradient.ts
