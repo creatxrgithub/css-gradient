@@ -1,0 +1,33 @@
+{
+  "name": "css-gradient",
+  "version": "1.0.0",
+  "description": "css gradient",
+  "main": "./dist/gradient.js",
+  "module": "./dist/gradient.mjs",
+  "types": "./dist/gradient.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/gradient.js",
+      "import": "./dist/gradient.mjs",
+      "types": "./dist/gradient.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/gradient.ts --format cjs,esm --dts --clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "gradient"
+  ],
+  "author": "creatxr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creatxrgithub/css-gradient/issues"
+  },
+  "homepage": "https://github.com/creatxrgithub/css-gradient",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
